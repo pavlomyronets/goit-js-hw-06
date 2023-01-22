@@ -8,33 +8,6 @@
 // Для додавання стилів використовуй CSS-класи valid і invalid, які ми вже додали у вихідні файли завдання.
 
 
-// const inputEL = document.querySelector("#validation-input");
-
-// inputEL.addEventListener("blur", onInputNumberCheck);
-
-// function onInputNumberCheck(event) {
-//     if (Number(inputEl.dataset.length) === event.currentTarget.value.length) {
-//         inputEL.classList.remove("invalid");
-//         inputEL.classList.add("valid");
-//     } else {
-//         inputEL.classList.add("invalid")
-//     }
-// }
-
-
-// const inputEl = document.querySelector("#validation-input");
-
-// inputEl.addEventListener("blur", onInputNumberCheck);
-
-// function onInputNumberCheck(event) {
-//     if (Number(inputEl.dataset.length) === event.currentTarget.value.length) {
-//     inputEl.classList.remove("invalid");
-//     inputEl.classList.add("valid");
-//     } else {
-//     inputEl.classList.add("invalid");
-//     }
-// }
-
 const textInput = document.querySelector("#validation-input");
 const lengthSymbols = Number(textInput.dataset.length);
 
