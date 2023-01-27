@@ -10,9 +10,9 @@
 const textInput = document.querySelector("#validation-input");
 const lengthSymbols = Number(textInput.dataset.length);
 
-textInput.addEventListener("blur", handleBlure);
+textInput.addEventListener("blur", handleBlute);
 
-function handleBlure(event) {
+function handleBlute(event) {
   if (event.target.value.length === lengthSymbols) {
     textInput.classList.replace(`invalid`, `valid`);
   } else {

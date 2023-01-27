@@ -21,5 +21,5 @@ function handleSubmit(event) {
         return alert("Всі поля повинні бути заповнені");
     }
     console.log(email.value, password.value);
-    event.curentTarget.reset();
+    event.currentTarget.reset();
 }
