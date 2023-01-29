@@ -7,12 +7,14 @@
 // Для додавання стилів використовуй CSS-класи valid і invalid, які ми вже додали у вихідні файли завдання.
 
 
+
 const textInput = document.querySelector("#validation-input");
 const lengthSymbols = Number(textInput.dataset.length);
 
-textInput.addEventListener("blur", handleBlute);
+textInput.addEventListener("blur", handleBl);
 
-function handleBlute(event) {
+function handleBl(event) {
+  textInput.classList.add(`invalid`);
   if (event.target.value.length === lengthSymbols) {
     textInput.classList.replace(`invalid`, `valid`);
   } else {
